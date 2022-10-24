@@ -11,13 +11,13 @@
     <viewModels:MainViewModel />
   </Design.DataContext>
 
+<StackPanel>
+    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 	<StackPanel>
-      <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-	    <StackPanel>
-		    <Button Content="DotnetDev"/>
-		    <CheckBox Content="Hello"/>
-		    <RadioButton Content="Welcome"/>
-		    <Slider Value="50"/>
-	    </StackPanel>
+		<Button Content="DotnetDev"/>
+		<CheckBox Content="Hello"/>
+		<RadioButton Content="Welcome"/>
+		<Slider Value="50"/>
 	</StackPanel>
+</StackPanel>
 </UserControl>
