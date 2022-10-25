@@ -6,18 +6,23 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Windows96.Views.MainView"
              Foreground="White"
-             Background="#171C2C">
+             Background="#CC171C2C">
   <Design.DataContext>
     <viewModels:MainViewModel />
   </Design.DataContext>
 
-<StackPanel>
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-	<StackPanel>
-		<Button Content="DotnetDev"/>
-		<CheckBox Content="Hello"/>
-		<RadioButton Content="Welcome"/>
-		<Slider Value="50"/>
-	</StackPanel>
-</StackPanel>
+<Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Border Grid.Row="1"
+            BorderThickness="0 1 0 0"
+            BorderBrush="#000000"
+            Background="#171C2C"
+            Padding="4">
+        <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Border>
+</Grid>
+	
 </UserControl>

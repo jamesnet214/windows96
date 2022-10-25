@@ -5,6 +5,7 @@
     <!--Temporal hack that fixes compilation in VS-->
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <EmccTotalMemory>16777216</EmccTotalMemory>
+    <Configurations>Release;Debug</Configurations>
   </PropertyGroup>
 
   <!-- In debug, make builds faster by reducing optimizations -->
@@ -22,6 +23,7 @@
     <RunAOTCompilation>true</RunAOTCompilation>
   </PropertyGroup>
   
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Browser' " />
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0" PrivateAssets="all" />
