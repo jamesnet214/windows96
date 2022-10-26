@@ -1,13 +1,10 @@
 # Windows96
 
 
-- Avalonia Wasm
+- .NET Core 6
+- Avalonia Xaml
+- Web Assembly
 
-
-
-
-| .NET | Avalonia | Wab Assembly |
+| .NET Core 6 | Avalonia Xaml | Web Assembly |
 |:-----:|:-------:|:------------:|
-| ![image](https://user-images.githubusercontent.com/52397976/198054654-f9a0a047-d95b-4906-bfbd-a687d44d1703.png) | <img src="https://user-images.githubusercontent.com/52397976/198057835-1449116c-e5e5-47e2-984c-1ded04adf371.png" style="width:80px"/> | <img src="https://user-images.githubusercontent.com/52397976/198054239-d2a65da9-02ed-4b7f-91ff-49561b357b9d.svg" style="width: 80px"/> |
-
-
+| <img src="https://user-images.githubusercontent.com/52397976/198058657-ecd3ee37-944a-4a10-b422-38b72f0c21c1.png" style="width: 110px"/> | <img src="https://user-images.githubusercontent.com/52397976/198058193-24f586e4-43c2-4f5e-9ba2-80c6c6e99a4b.png" style="width:110px"/> | <img src="https://user-images.githubusercontent.com/52397976/198054239-d2a65da9-02ed-4b7f-91ff-49561b357b9d.svg" style="width: 110px"/> |
