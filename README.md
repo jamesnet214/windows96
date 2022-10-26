@@ -1,3 +1,3 @@
 # Windows96
 
-- Avalonia
+- Avalonia Wasm
