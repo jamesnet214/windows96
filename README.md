@@ -1,4 +1,4 @@
-# Windows96
+# Jamesnet Windows96
 
 
 - NET6
