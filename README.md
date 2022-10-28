@@ -1,9 +1,10 @@
 # Windows96
 
 
-- .NET Core 6
-- Avalonia Xaml
+- NET Core 6
+- Avalonia
 - Web Assembly
+- CommunityToolkit
 
 | .NET Core 6 | Avalonia Xaml | Web Assembly | VisualStudio | Rider | CommunityToolkit |
 |:-----:|:-------:|:------------:|:--:|:--:|:--:|
