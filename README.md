@@ -1,7 +1,7 @@
 # Windows96
 
 
-- NET 6
+- NET6
 - Avalonia
 - Web Assembly
 - CommunityToolkit
