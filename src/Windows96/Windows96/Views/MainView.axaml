@@ -6,7 +6,7 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Windows96.Views.MainView"
              Foreground="White"
-             Background="#CC171C2C">
+             Background="#018281">
   <Design.DataContext>
     <viewModels:MainViewModel />
   </Design.DataContext>
@@ -15,14 +15,22 @@
     <Grid.RowDefinitions>
         <RowDefinition/>
         <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
     </Grid.RowDefinitions>
-    <Border Grid.Row="1"
+    <Border Grid.Row="2"
+            Height="22"
             BorderThickness="0 1 0 0"
-            BorderBrush="#000000"
-            Background="#171C2C"
+            BorderBrush="#E7E7E7"
             Padding="4">
-        <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                <GradientStop Color="#C0C0C0" Offset="0.0" />
+                <GradientStop Color="#BABABA" Offset="1.0" />
+            </LinearGradientBrush>
+        </Border.Background>
+        <!-- <TextBlock Text="{Binding Greeting}"  -->
+        <!--            HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
     </Border>
 </Grid>
-	
 </UserControl>

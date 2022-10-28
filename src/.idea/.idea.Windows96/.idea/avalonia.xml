@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Windows96/Windows96/Views/MainView.axaml" value="Windows96/Windows96.Desktop/Windows96.Desktop.csproj" />
+        <entry key="Windows96/Windows96/Views/MainWindow.axaml" value="Windows96/Windows96.Desktop/Windows96.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
