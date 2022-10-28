@@ -2,7 +2,7 @@
 
 
 - NET6
-- Avalonia
+- Avalonia XAML
 - Web Assembly
 - CommunityToolkit
 
