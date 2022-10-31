@@ -4,6 +4,7 @@
 - NET6
 - Avalonia XAML
 - Web Assembly
+- Jetbrains Rider
 - CommunityToolkit
 
 | .NET Core 6 | Avalonia Xaml | Web Assembly | VisualStudio | Rider | CommunityToolkit |
