@@ -1,6 +1,6 @@
 # Jamesnet Windows96
 
-This program is Fake Classic Windows. :
+This program is Fake Classic Windows. 😄
 
 - NET6
 - Avalonia XAML
