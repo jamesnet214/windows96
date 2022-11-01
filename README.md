@@ -2,7 +2,7 @@
 
 This program is Fake Classic Windows. 😄
 
-- NET6
+- NET Core 6
 - Avalonia XAML
 - Web Assembly
 - Jetbrains Rider
